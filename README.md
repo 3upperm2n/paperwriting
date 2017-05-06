@@ -3,6 +3,7 @@
 # latex
 
 ### adjust equation font
+change to small, then switch back to normal
 ```
 \small
 \begin{equation}
