@@ -4,7 +4,7 @@
 
 ### adjust equation font
 change to small, then switch back to normal
-```math
+```tex
 \small
 \begin{equation}
 warp\_fp32 = inst\_fp\_32 / total\_threads
@@ -19,7 +19,7 @@ warp\_int = inst\_integer / total\_threads
 ```
 
 ### align equation and label them
-```latex
+```tex
 \small
 \begin{align}
 warp\_fp32 &= inst\_fp\_32 / total\_threads \label{eq1} \\
@@ -35,7 +35,7 @@ warp\_smst &= smst\_transactions/ total\_threads \label{eq8}
 ```
 
 ### table resize
-```latex
+```tex
 \begin{table}[h]
 \centering
 \caption{Compute-intensive Kernels}
