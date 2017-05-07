@@ -4,7 +4,7 @@
 
 ### adjust equation font
 change to small, then switch back to normal
-```tex
+```math
 \small
 \begin{equation}
 warp\_fp32 = inst\_fp\_32 / total\_threads
