@@ -33,3 +33,21 @@ warp\_smst &= smst\_transactions/ total\_threads \label{eq8}
 \end{align}
 \normalsize
 ```
+
+### table resize
+\begin{table}[h]
+\centering
+\caption{Compute-intensive Kernels}
+\label{tab_compute}
+\resizebox{0.95\columnwidth}{!}{%
+\begin{tabular}{|l|l|l|}
+\hline
+\multicolumn{1}{|l|}{\textbf{Kernel Name}} & 
+\multicolumn{1}{l|}{\textbf{Application}} & 
+\multicolumn{1}{l|}{\textbf{Domain}} \\ \hline
+fwtbatch2kernel & fastWalshTransform & computational mathematics \\ \hline
+mergeranksandindiceskernel & mergeSort & sorting \\ \hline
+mergesortsharedkernel & mergeSort & sorting \\ \hline
+\end{tabular}%
+}
+\end{table}
