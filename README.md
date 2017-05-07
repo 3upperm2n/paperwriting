@@ -4,7 +4,7 @@
 
 ### adjust equation font
 change to small, then switch back to normal
-```
+```tex
 \small
 \begin{equation}
 warp\_fp32 = inst\_fp\_32 / total\_threads
@@ -19,7 +19,7 @@ warp\_int = inst\_integer / total\_threads
 ```
 
 ### align equation and label them
-```
+```latex
 \small
 \begin{align}
 warp\_fp32 &= inst\_fp\_32 / total\_threads \label{eq1} \\
