@@ -35,6 +35,7 @@ warp\_smst &= smst\_transactions/ total\_threads \label{eq8}
 ```
 
 ### table resize
+```latex
 \begin{table}[h]
 \centering
 \caption{Compute-intensive Kernels}
@@ -51,3 +52,4 @@ mergesortsharedkernel & mergeSort & sorting \\ \hline
 \end{tabular}%
 }
 \end{table}
+```
