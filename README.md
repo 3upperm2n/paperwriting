@@ -2,6 +2,15 @@
 
 # latex
 
+### spacing issue when using misc for bib
+```
+@misc{ovlp_transfer,
+  Author = {Mark Harris},
+  Title = {{How to Overlap Data Transfers in CUDA C/C++}},
+  Url={https://devblogs.nvidia.com/parallelforall/how-overlap-data-transfers-cuda-cc/},
+}
+```
+
 ### adjust equation font
 change to small, then switch back to normal
 ```tex
